@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+* { 
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+body {
+width: 90%;
+margin: auto;
+font-family: "Open Sans",sans-serif;
+font-size: 1em;
+box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5)
+
+}
+nav, header, main, aside, footer {
+padding:0;
+margin:0;
+overflow: hidden;
+display: block;
+}
+
+/*------------------------------------------*/
+
+#navegacion{
+     overflow: hidden;
+     background-color: blue;
+     width: 100%;
+     height: 90px;
+     margin: 0;
+     }
+.logo{
+      float: left;
+      margin: auto;
+      padding-top: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+     }
+.menu{
+       float: right;
+     }
+.menu ul{
+          margin-right: 70px;
+          margin-top: 35px;
+          padding: 0;
+        }
+.menu ul li{
+            display: inline-block;      
+            padding-left: 10px;
+           }
+
+.menu ul li a{ 
+               color: white; 
+               text-decoration: none;                
+             }
+.menu ul li a:hover{
+                    color: yellow;
+                    text-decoration: underline;
+                   }
+
+/*--------------------------------------------------*/
+
+.anuncios{
+         margin: 0;
+         background-image:url(../img/foto-playa.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         background-attachment: scroll;
+         max-height: 500px;
+         padding-top: 40px;
+         padding-bottom: 40px;
+         /*border: 3px solid red;*/
+        }
+.anuncios>div{
+              overflow: hidden;
+              /*border: 2px solid green;*/
+              width: 90%;
+              margin: auto;
+             }
+.anuncios>div>div{
+                  float: left;
+                  /*border: 3px solid yellow;*/
+                  width: 33.33%;                 
+                }
+.anuncios>div>div>div{
+                      background-color: white;
+                      /*border: 3px solid green;*/
+                      margin: 10px;
+                      padding: 10px;
+                      width:80%;
+                      height: 250px;
+                      box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+                     }
+.anuncios>div>div>div:hover{
+                               background-color: lightyellow;
+                               cursor:grab;
+                           }
+.anuncios img{
+              width: 100%;
+            }
+.anuncios h2{
+            margin: 0;
+            padding: 0;
+            color: blue;
+            font-size: 25px;
+          }
+.anuncios p{
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: black;
+            }
+.anuncios a{
+            margin: 0;
+            float: right;
+            padding: 5px;
+            text-decoration: none;
+            font-weight: bold;
+           }
+.anuncios a:hover{
+                   text-decoration: underline;
+                   color: darkred;
+                  }
+
+/*-------------------------------------------------------------*/
+
+.titulo{
+        margin: 0;
+        padding: 10px;
+       }
+.mayusculas{
+              font-size: 25px;
+              font-weight: lighter;
+              text-transform: uppercase;
+              color: lightblue;
+           }
+.descripcion{
+              color: dimgray;   
+              font-size: 16px;           
+            }
+  
+/*-----------------------------------------------------------------*/
+.boton{
+           text-align: right;
+           margin-right: 10px;
+         }
+.boton>a{
+           color: white;
+           text-decoration: none;
+           font-size: 16px;
+           text-transform: uppercase;
+           padding: 10px 20px;
+           background-color: rgb(52, 159, 226);
+         }
+.boton>a:hover{
+               background-color: #003399;
+               color: yellow;
+               }
+
+/*----------------------------------------------------------------*/
+
+.seccion1{
+            overflow: hidden;
+            /*border: 3px solid green;*/
+         }
+
+
+.seccion1>div{
+                 /* border: 3px solid yellow;*/
+                  float: left;
+                  width: 33.33%;    
+                  }
+.seccion1>div>div{
+                  background-color: white;
+                  padding: 10px;                  
+                  margin: 10px;
+                  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+                  position: relative;                  
+                   /*border: 2px solid black;*/
+                 }
+.seccion1 img{
+                  width: 100%;
+                  height: auto;                
+               }
+.seccion1 p{
+                      margin: 5px 0 0px 0;
+                      padding: 0;
+                      text-align: right;
+                      text-transform: uppercase;
+                   }
+.seccion1>div>div>p>a{
+                     text-decoration: none;
+                     color: lightslategray;
+                    }
+.seccion1>div>div>h2{
+                      position: absolute;
+                      bottom: 10%;
+                      left: 5%;
+                      padding: 10px;
+                      text-transform: uppercase;
+                      font-weight: lighter;
+                      font-size: 20px;
+                      color: white;
+                      text-shadow: 0px 2px 2px #666;                     
+                     }
+/*-----------------------------------------------------------------*/
+.seccion2{
+          /*border: 2px solid green;*/
+          overflow: hidden;
+         }
+.seccion2>div{
+                  /*border: 2px solid yellow;*/
+                  float: left;
+                  width: 25%;   
+              }
+.seccion2>div>div{
+                        background-color: white;
+                        padding: 10px;
+                        margin: 10px;
+                        box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+                        position: relative;  
+                     /* border: 2px solid black;*/
+                 }
+.seccion2>div>div>img{
+                          width: 100%;
+                          height: auto;                 
+                     }
+.seccion2>div>div>p{
+                        margin: 5px 0 0px 0;
+                        padding: 0;
+                        text-align: right;
+                        text-transform: uppercase;
+                   }
+.seccion2>div>div>p>a{
+                        text-decoration: none;
+                        color: lightslategray;
+                    }
+.seccion2>div>div>h2{
+                        position: absolute;
+                        bottom: 5%;
+                        left:5%;
+                        padding: 10px;
+                        text-transform: uppercase;
+                        font-weight: lighter;
+                        font-size: 20px;
+                        color: white;
+                        text-shadow: 0px 2px 2px #666; 
+                     }
+
+/*-----------------------------------------------------------------*/
+
+.seccion3{
+            /*border: 2px solid green;*/
+            overflow: hidden;
+          }
+.seccion3>div{
+                  /*border: 2px solid yellow;*/
+                  float: left;
+                  width: 50%;   
+              }
+.seccion3>div>div{
+                          background-color: white;
+                          padding: 10px;
+                          margin: 10px;
+                          box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+                          position: relative; 
+                      /* border: 2px solid black;*/
+                  }
+.seccion3>div>div>img{
+                          width: 100%;
+                          height: auto;                
+                       }
+.seccion3>div>div>p{
+                        margin: 5px 0 0px 0;
+                        padding: 0;
+                        text-align: right;
+                        text-transform: uppercase;
+                     }
+.seccion3>div>div>p>a{
+                            text-decoration: none;
+                            color: lightslategray;
+                        }
+.seccion3>div>div>h2{
+                          position: absolute;
+                          bottom: 5%;
+                          left: 5%;
+                          padding: 10px;
+                          text-transform: uppercase;
+                          font-weight: lighter;
+                          font-size: 20px;
+                          color: white;
+                          text-shadow: 0px 2px 2px #666; 
+                       }
+/*--------------------------------------------------------------*/
+.aside-titulo{
+               position: relative;
+               height: 100px;
+               background-color: #003399;              
+              }
+.hraside{
+          border: 1px solid white;
+          opacity: 0.2;
+          width: 90%;
+          position: absolute;
+          top: 54px;
+          left: 0;
+          right: 0;         
+        }
+.h2aside{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        }
+.h2aside>span{
+               background-color: #003399; 
+               padding: 0 50px;         
+             }
+.aside{
+       background-color: #003399;
+       overflow: hidden;
+      }
+.aside>div{
+           float: left;
+           width: 33.33%;
+           color: white;
+           text-align: center;
+           padding: 10px;
+           height: 150px;          
+          }
+
+
+/*-------------------------------------------------------------------*/
+
+.footer{
+         background-color: white;
+        }
+.redessociales{
+              background-color: lightgray;
+              padding: 10px 0;
+              }
+.redessociales ul{
+                     list-style-type: none;
+                     padding: 0;
+                     margin:0;
+                     text-align: center;
+                    }
+.redessociales ul li{
+                     display: inline-block;
+                     width: 12%;                    
+                    }
+/*.redessociales a{
+                text-align: center;
+                padding: 0 50px;
+                text-decoration: none;
+                **ESTO ES TAN VÁLIDO COMO LO DE ARRIBA CON WIDTH**
+              }*/
+.redessociales a:hover{
+                        opacity: 0.7;
+                      }
+/*---------------------------------------------------------------------*/
+.legal{
+        background-color: black;
+        padding: 10px 0;
+        }
+.legal ul{
+         list-style-type: none;
+         padding: 0;
+         margin:0;
+         text-align: center;
+        }
+.legal ul li{
+         display: inline-block;   
+         color: white;
+         text-transform: uppercase; 
+         font-size: 16px;
+         padding: 10px 70px;               
+        }
+.legal ul li a{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+              }   
+.legal a:hover{
+                opacity: 0.7;
+              }     
